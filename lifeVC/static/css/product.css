@@ -1,0 +1,177 @@
+#app{
+  background: #f0f0f0;
+}
+
+body{
+  width: 100%;
+}
+
+
+#all-container{
+  overflow: hidden;
+}
+/*整个头部的*/
+header{
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 999;
+  background-color:#f0f0f0;
+}
+
+/*上半部分产品那的父元素*/
+.header-content{
+  width: 100%;
+  margin: 0 auto;
+  height: 48px;
+  background:#89be48;
+}
+/*上半部分产品那*/
+.header-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size:20px;
+  line-height: 48px;
+  height: 48px;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 80%;
+}
+
+/*搜索区那最外面的一层*/
+.search-panel{
+  padding: 6px 0;
+}
+/*里面的一层*/
+#search-bar{
+  height: 30px;
+  width: 94%;
+  margin: 0 auto;
+  padding: 0;
+  /*text-align: center;*/
+  /*vertical-align: middle;*/
+
+}
+
+/*搜索商品的样式*/
+#search-bar .searchinput{
+  width:100%;
+  height:36px;
+  background-color: #fff;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAjVBMVEUAAACSkpKTk5OTk5ORkZGSkpKEhISTk5ORkZGTk5OSkpKRkZGRkZGRkZGSkpKRkZGTk5OTk5ORkZGTk5OSkpKSkpKSkpKTk5ORkZGRkZGRkZGSkpKPj4+UlJSUlJSQkJCSkpKRkZGSkpKRkZGQkJCWlpaRkZGSkpKWlpaTk5OSkpKSkpKRkZGenp6YmJhw30CvAAAALXRSTlMAxbmZWg0FdiT6ybROvKKNUjMpFd7az7+rVkhCEO7Tyn5jXzwvGfqWjYBsNhx4c16/AAAA0ElEQVQ4y82R2Q6CMBBFKVVa24IIsskO4i7//3kaYpSZEo0vxvPEzRya6a3xV3hMmtKmiTU99mnh1GmrKiHcqfmqcPjjswmW+pyvT69wKTXDio7j2K0VEmYEbpYImC2C9yIKXrDMkMAoiBvTQKQRFBzt1hIKMRbONogtwfUmEtYcekhwGMwUVdcFHDe9xT8gWDhuosm5gdmHq2evVd/LuWaw4DAo/ozYbHc1dcOjgsSxLUh9f7zFYGD81HXVsC00MF8Y2Scjen+GyikSMNz4ETeZVQrjcGuzcAAAAABJRU5ErkJggg==');
+  background-repeat: no-repeat;
+  background-position: 38% 6px;
+  background-size: auto 70%;
+  border: 0;
+  border-radius: 6px;
+  padding-left: 36px;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+
+/*下面图片的设置*/
+#content-wrap{
+  /*position: absolute;*/
+  margin-top: 96px;
+  width: 100%;
+}
+.goodsTip{
+  width: 100%;
+  text-align: center;
+}
+.life-goodsAll{
+  overflow: hidden;
+}
+/*文字和图片整体的大小*/
+.life-goodsAll .life-goodsBox{
+  margin-top: 24px;
+}
+/*大家务的文字*/
+.goodsTip .life-goodsMark{
+  width: 120px;
+  height: 36px;
+  font-size: 20px;
+  letter-spacing: 6px;
+  margin:auto;
+  line-height: 28px;
+
+}
+/*图片的ul*/
+.life-goodsUl{
+  background: #ffffff;
+  width: 375px;
+  height: 417px;
+}
+.life-goodsUl li{
+  float: left;
+  width: 33.0%;
+  height: 140px;
+  margin: 0 0 -1px -1px;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+}
+
+.life-goodsUl li p{
+  height: 24px;
+  line-height: 24px;
+  padding-bottom: 12px;
+  padding-top: 6px;
+  font-size: 16px;
+
+}
+.life-goodsUl li img{
+  /*width: 74.25px;
+  height: 74.25px;*/
+  width: 60%;
+  padding-top: 12px;
+  margin: auto;
+
+}
+
+
+
+/*底部的footer*/
+footer{
+  /* overflow: hidden;*/
+  position: fixed;
+  bottom:0px;
+  width: 100%;
+  height: 50px;
+  background: #f8f8f8;
+}
+#footermenuNav {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  width: 100%;
+  /*margin:6px 4px;*/
+  z-index: 1001;
+  overflow: hidden;
+}
+.iconfont{
+  height: 26px;
+/*  width: 75px;
+  height: 39px;*/
+}
+#footermenuNav li{
+  float: left;
+  width: 20%;
+}
+#footermenuNav li a{
+  margin-bottom: 8px;
+  margin-top:8px;
+  display: block;
+  color: #ababab;
+  line-height: 16px;
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+#footermenuNav a .selected{
+  color:#009c42
+}
